@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/numbg2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="x"
+        android:textColor="#fff"
+        android:background="@drawable/button_background" />
+
+    <!-- title-->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="COUNT WITH ME"
+        android:textSize="28sp"
+        android:textColor="@color/mustard"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="2"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- First Picture -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/bee5"
+            android:contentDescription="5 bee"/>
+
+        <!-- "+" Text -->
+        <TextView
+            android:id="@+id/plusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="60dp"
+            android:textColor="@color/mustard"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:shadowRadius="2"
+            android:layout_gravity="center_vertical" />
+
+        <!-- Second Picture -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bee4"
+            android:contentDescription="4 bee"/>
+
+        <!-- "=" Text -->
+        <TextView
+            android:id="@+id/equalsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="60dp"
+            android:textColor="@color/mustard"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:shadowRadius="2"
+            android:layout_gravity="center_vertical" />
+
+        <!-- Third Picture -->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/question"
+            android:contentDescription="question"/>
+    </LinearLayout>
+
+    <!-- instruction -->
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HOW MANY BEES ARE THERE?"
+        android:textSize="24sp"
+        android:textColor="@color/mustard"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+
+    <!-- 1st and 2nd choice -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+    <!-- 1st choice -->
+    <ImageButton
+        android:id="@+id/bee10ChoiceButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/bee_button10"
+        android:contentDescription="bee button 10"/>
+
+        <!-- 2nd choice -->
+        <ImageButton
+            android:id="@+id/bee4ChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/bee_button4"
+            android:contentDescription="bee button 4"/>
+    </LinearLayout>
+
+    <!-- 3rd and 4th choice -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp">
+
+        <!-- 3rd choice -->
+        <ImageButton
+            android:id="@+id/bee9ChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/bee_button9"
+            android:contentDescription="bee button 9"/>
+
+        <!-- 4th choice -->
+        <ImageButton
+            android:id="@+id/bee6ChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/bee_button6"
+            android:contentDescription="bee button 6"/>
+    </LinearLayout>
+
+</LinearLayout>

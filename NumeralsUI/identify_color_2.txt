@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/numbg2"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="x"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        />
+
+    <!-- title-->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="IDENTIFYING COLOR"
+        android:textSize="28sp"
+        android:textColor="@color/mustard"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="2"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/mango"
+        android:layout_gravity="center"/>
+
+    <!-- instruction -->
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="WHAT IS THE COLOR OF THE FRUIT?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/mustard"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="2"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        />
+
+    <!-- shape choices 1st row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+            android:id="@+id/blueChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/blue"
+            android:contentDescription="blue"/>
+
+        <ImageButton
+            android:id="@+id/greenChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/green"
+            android:contentDescription="green"/>
+    </LinearLayout>
+
+    <!-- shape choices 2nd row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+            android:id="@+id/redChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/red"
+            android:contentDescription="red"/>
+
+        <ImageButton
+            android:id="@+id/yellowChoiceButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/yellow"
+            android:contentDescription="yellow"/>
+    </LinearLayout>
+
+</LinearLayout>
