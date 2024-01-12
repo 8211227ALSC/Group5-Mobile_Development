@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="UselessParent">
+
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/b_button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bee2"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="225dp"
+            android:text="Correct the spell. Choose the missing letter to complete the word."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/gontserrat"/>
+
+        <Button
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="335dp"
+            android:id="@+id/litopt_o"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="O"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+        <Button
+            android:layout_marginStart="235dp"
+            android:layout_marginTop="320dp"
+            android:id="@+id/litopt_g"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="G"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+        <Button
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="415dp"
+            android:id="@+id/litopt_m"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="M"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+        <Button
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="500dp"
+            android:id="@+id/litopt_b"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="B"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+        <Button
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="450dp"
+            android:id="@+id/litopt_i"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="I"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+        <Button
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="555dp"
+            android:id="@+id/litopt_w"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="W"
+            android:textSize="65dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/litbtn_opt"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

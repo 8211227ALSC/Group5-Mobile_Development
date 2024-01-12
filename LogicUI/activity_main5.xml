@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="UselessParent">
+
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="70dp"
+            android:text="Complete the puzzle. Find the missing piece."
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:fontFamily="@font/gontserrat"/>
+
+        <ImageView
+            android:id="@+id/b_button"
+            android:layout_width="330dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/ques_puzzle"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/option1_button"
+            android:layout_width="161dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/pzl_opt3" />
+
+        <ImageButton
+            android:id="@+id/option2_button"
+            android:layout_width="161dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="410dp"
+            android:background="@drawable/pzl_opt1" />
+
+        <ImageButton
+            android:id="@+id/option3_button"
+            android:layout_width="161dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/pzl_opt2" />
+
+        <ImageButton
+            android:id="@+id/option4_button"
+            android:layout_width="161dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="540dp"
+            android:background="@drawable/pzl_opt4" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

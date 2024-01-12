@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+
+            <ImageButton
+                android:id="@+id/profile"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/avatar"
+                android:contentDescription="TODO"
+                android:padding="5dp"
+                tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/library"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/library"
+                android:contentDescription="TODO"
+                android:padding="5dp"
+                tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+
+            <ImageButton
+                android:id="@+id/settings"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/setting"
+                android:contentDescription="TODO"
+                android:padding="5dp"
+                tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+        </RelativeLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/literacy"
+                    android:layout_width="363dp"
+                    android:layout_height="530dp"
+                    android:background="@drawable/literacy"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/numeracy"
+                    android:layout_width="363dp"
+                    android:layout_height="530dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/numeracy"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/logic"
+                    android:layout_width="363dp"
+                    android:layout_height="530dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/logic"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/story"
+                    android:layout_width="363dp"
+                    android:layout_height="530dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@drawable/story"
+                    tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

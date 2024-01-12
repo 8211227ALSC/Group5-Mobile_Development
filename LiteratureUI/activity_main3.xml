@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="UselessParent">
+
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/b_button"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/speaker"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="330dp"
+            android:text="What letter that makes this sound?"
+            android:textSize="20sp"
+            android:fontFamily="@font/gontserrat"/>
+
+        <Button
+            android:id="@+id/option1_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="380dp"
+            android:shadowColor="@color/black"
+            android:text="B"
+            android:textSize="100sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/custombtn_b"/>
+
+        <Button
+            android:id="@+id/option2_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="380dp"
+            android:shadowColor="@color/black"
+            android:text="M"
+            android:textSize="100sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/custombtn_m"/>
+
+        <Button
+            android:id="@+id/option3_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="540dp"
+            android:shadowColor="@color/black"
+            android:text="O"
+            android:textSize="100sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/custombtn_o"/>
+
+        <Button
+            android:id="@+id/option4_button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="540dp"
+            android:shadowColor="@color/black"
+            android:text="W"
+            android:textSize="100sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/custombtn_w"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

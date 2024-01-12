@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="UselessParent">
+
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/x"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/b_button"
+            android:layout_width="370dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/yourturn1"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/logicnum"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="330dp"
+            android:text="Choose the object that uses these colors."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="@font/gontserrat"/>
+
+        <Button
+            android:id="@+id/option1_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="410dp"
+            android:shadowColor="@color/black"
+            android:text="7"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+        <Button
+            android:id="@+id/option2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="410dp"
+            android:shadowColor="@color/black"
+            android:text="5"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+        <Button
+            android:id="@+id/option3_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="410dp"
+            android:shadowColor="@color/black"
+            android:text="3"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+        <Button
+            android:id="@+id/option4_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="520dp"
+            android:shadowColor="@color/black"
+            android:text="1"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+        <Button
+            android:id="@+id/option5_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="520dp"
+            android:shadowColor="@color/black"
+            android:text="6"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+        <Button
+            android:id="@+id/option6_button"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_marginStart="273dp"
+            android:layout_marginTop="520dp"
+            android:shadowColor="@color/black"
+            android:text="9"
+            android:textSize="50sp"
+            android:fontFamily="@font/gontserrat"
+            android:background="@drawable/nums_ctmbtn"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
